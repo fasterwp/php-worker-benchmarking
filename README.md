@@ -41,7 +41,7 @@ run 20 workers on core 3
 `./run-bench.sh 3 20`
 
 Note that k6.io produces output on stdout and stderr, you can redirect the report which is on stdout
-`./run-bech.sh 3 1 > report.txt`
+`./run-bench.sh 3 1 > report.txt`
 
 
 ### `./run-series.sh`
@@ -49,3 +49,8 @@ Note that k6.io produces output on stdout and stderr, you can redirect the repor
 No options, will output reports in the `reports` in the current folder
 
 Note that `run-series.sh` won't overwrite existing reports, so clear the directory to rerun
+
+### `./compare-reports.sh`
+`./compare-reports.sh dir`
+
+Will pull useful fields from json reports and dump them in a table
