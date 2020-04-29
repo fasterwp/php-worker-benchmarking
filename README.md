@@ -43,6 +43,9 @@ run 20 workers on core 3
 Note that k6.io produces output on stdout and stderr, you can redirect the report which is on stdout
 `./run-bench.sh 3 1 > report.txt`
 
+You can also change the test script
+`./run-bench.sh 3 1 test-simulate.php`
+
 
 ### `./run-series.sh`
 

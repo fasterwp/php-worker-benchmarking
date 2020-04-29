@@ -1,6 +1,7 @@
 #!/bin/bash
 CPUSET=${1-3}
 VUS=${2-1}
+FILE=${3-"test.php"}
 
 if [[ ! -z $3 ]]
 then
@@ -12,7 +13,7 @@ fi
 
 
 echo "Running on cpuset $CPUSET"
-sed "s/VUS/$VUS/" k6.js > k6-run.js
+sed "s/VUS/$VUS/" k6.js | sed "s/FILE/$FILE/" - > k6-run.js
 grep 'vus' k6-run.js
 docker run \
     --rm \

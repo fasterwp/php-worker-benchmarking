@@ -6,5 +6,5 @@ export let options = {
 };
 
 export default function() {
-  http.get('http://php-bench:8080/test.php');
+  http.get('http://php-bench:8080/FILE');
 };

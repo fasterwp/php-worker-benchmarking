@@ -5,15 +5,7 @@ $key = 'mysupersecretkey';
 $method = 'AES256';
 $iv = 'aninsecureivhere';
 $times_run = 0;
-while ( $times_run < 50000 ) {
-        $encrypted = openssl_encrypt( $string, $method, $key, null, $iv );
-        $decrypted = openssl_decrypt( $encrypted, $method, $key, null, $iv );
-        $times_run++;
-}
-// this is the equivalent of talking to mysql
-usleep(200000);
-
-while ( $times_run < 50000 ) {
+while ( $times_run < 100000 ) {
         $encrypted = openssl_encrypt( $string, $method, $key, null, $iv );
         $decrypted = openssl_decrypt( $encrypted, $method, $key, null, $iv );
         $times_run++;
