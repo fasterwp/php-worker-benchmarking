@@ -1,0 +1,34 @@
+       Php: 7.3.17
+Total Time: 0.1768
+Running on cpuset 95
+  vus: 400,
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: -
+
+    duration: 1m0s, iterations: -
+         vus: 400,  max: 400
+
+    init [----------------------------------------------------------] starting
+    data_received..............: 3.4 MB 57 kB/s
+    data_sent..................: 1.4 MB 22 kB/s
+    http_req_blocked...........: avg=1.41ms   min=1.39µs   med=1.9µs    max=92.01ms p(90)=3.62µs  p(95)=6.53µs 
+    http_req_connecting........: avg=727.82µs min=0s       med=0s       max=58.06ms p(90)=0s      p(95)=0s     
+    http_req_duration..........: avg=1.3s     min=343.24ms med=798.25ms max=40.97s  p(90)=1.53s   p(95)=2.29s  
+    http_req_receiving.........: avg=27.27µs  min=15.68µs  med=25.23µs  max=2.22ms  p(90)=34.16µs p(95)=38.85µs
+    http_req_sending...........: avg=132.55µs min=6.43µs   med=8.66µs   max=14.84ms p(90)=14.16µs p(95)=23.32µs
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s      p(90)=0s      p(95)=0s     
+    http_req_waiting...........: avg=1.3s     min=343.2ms  med=798.22ms max=40.97s  p(90)=1.53s   p(95)=2.29s  
+    http_reqs..................: 15351  255.8497/s
+    iteration_duration.........: avg=1.3s     min=343.28ms med=798.33ms max=40.97s  p(90)=1.53s   p(95)=2.29s  
+    iterations.................: 15351  255.8497/s
+    vus........................: 400    min=400 max=400
+    vus_max....................: 400    min=400 max=400
+

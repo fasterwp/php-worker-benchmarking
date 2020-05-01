@@ -1,0 +1,34 @@
+       Php: 7.3.17
+Total Time: 0.1788
+Running on cpuset 95
+  vus: 2,
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: -
+
+    duration: 1m0s, iterations: -
+         vus: 2,    max: 2
+
+    init [----------------------------------------------------------] starting
+    data_received..............: 144 kB 2.4 kB/s
+    data_sent..................: 57 kB  944 B/s
+    http_req_blocked...........: avg=10.96µs  min=939ns    med=3.06µs   max=2.14ms   p(90)=4.24µs   p(95)=5.29µs  
+    http_req_connecting........: avg=1.13µs   min=0s       med=0s       max=218.55µs p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=186.01ms min=183.73ms med=185.95ms max=190.57ms p(90)=186.77ms p(95)=187.06ms
+    http_req_receiving.........: avg=50.16µs  min=13.2µs   med=57.25µs  max=173.75µs p(90)=72.04µs  p(95)=81.93µs 
+    http_req_sending...........: avg=13.65µs  min=4.6µs    med=13.45µs  max=88.39µs  p(90)=18.31µs  p(95)=22.94µs 
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=185.95ms min=183.65ms med=185.88ms max=190.55ms p(90)=186.7ms  p(95)=187.01ms
+    http_reqs..................: 644    10.733317/s
+    iteration_duration.........: avg=186.1ms  min=183.82ms med=186.03ms max=190.6ms  p(90)=186.88ms p(95)=187.17ms
+    iterations.................: 644    10.733317/s
+    vus........................: 2      min=2 max=2
+    vus_max....................: 2      min=2 max=2
+

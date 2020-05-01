@@ -1,0 +1,34 @@
+       Php: 7.3.17
+Total Time: 0.178
+Running on cpuset 95
+  vus: 400,
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: -
+
+    duration: 1m0s, iterations: -
+         vus: 400,  max: 400
+
+    init [----------------------------------------------------------] starting
+    data_received..............: 90 kB 1.5 kB/s
+    data_sent..................: 35 kB 589 B/s
+    http_req_blocked...........: avg=69.08ms min=2.37µs  med=75.19ms max=102.56ms p(90)=92.09ms p(95)=93.83ms
+    http_req_connecting........: avg=41.38ms min=0s      med=33.54ms max=75.01ms  p(90)=65.12ms p(95)=66.17ms
+    http_req_duration..........: avg=36.8s   min=7.67s   med=37.91s  max=40.42s   p(90)=40.04s  p(95)=40.22s 
+    http_req_receiving.........: avg=54.7µs  min=18.16µs med=52.77µs max=108.12µs p(90)=73.07µs p(95)=78.01µs
+    http_req_sending...........: avg=7.17ms  min=12.72µs med=2.9ms   max=36.57ms  p(90)=20.11ms p(95)=20.48ms
+    http_req_tls_handshaking...: avg=0s      min=0s      med=0s      max=0s       p(90)=0s      p(95)=0s     
+    http_req_waiting...........: avg=36.79s  min=7.65s   med=37.9s   max=40.41s   p(90)=40.03s  p(95)=40.2s  
+    http_reqs..................: 402   6.69999/s
+    iteration_duration.........: avg=36.87s  min=7.72s   med=37.98s  max=40.52s   p(90)=40.11s  p(95)=40.28s 
+    iterations.................: 402   6.69999/s
+    vus........................: 400   min=400 max=400
+    vus_max....................: 400   min=400 max=400
+

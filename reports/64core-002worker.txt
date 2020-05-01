@@ -1,0 +1,34 @@
+       Php: 7.3.17
+Total Time: 0.177
+Running on cpuset 95
+  vus: 2,
+
+          /\      |‾‾|  /‾‾/  /‾/   
+     /\  /  \     |  |_/  /  / /    
+    /  \/    \    |      |  /  ‾‾\  
+   /          \   |  |‾\  \ | (_) | 
+  / __________ \  |__|  \__\ \___/ .io
+
+    init [----------------------------------------------------------] runner    init [----------------------------------------------------------] options    init [----------------------------------------------------------] executor    init [----------------------------------------------------------]   engine    init [----------------------------------------------------------]   collector    init [----------------------------------------------------------]   server  execution: local
+     output: -
+     script: -
+
+    duration: 1m0s, iterations: -
+         vus: 2,    max: 2
+
+    init [----------------------------------------------------------] starting
+    data_received..............: 147 kB 2.4 kB/s
+    data_sent..................: 58 kB  960 B/s
+    http_req_blocked...........: avg=10.64µs  min=939ns    med=3.05µs   max=2.02ms   p(90)=3.67µs   p(95)=6.23µs  
+    http_req_connecting........: avg=1.42µs   min=0s       med=0s       max=220.41µs p(90)=0s       p(95)=0s      
+    http_req_duration..........: avg=182.73ms min=176.93ms med=183.31ms max=190.82ms p(90)=184.23ms p(95)=184.63ms
+    http_req_receiving.........: avg=38.42µs  min=12.55µs  med=42µs     max=128.27µs p(90)=54.09µs  p(95)=63.66µs 
+    http_req_sending...........: avg=11.95µs  min=4.34µs   med=12.93µs  max=95.38µs  p(90)=16.69µs  p(95)=20.79µs 
+    http_req_tls_handshaking...: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+    http_req_waiting...........: avg=182.68ms min=176.91ms med=183.26ms max=190.77ms p(90)=184.16ms p(95)=184.57ms
+    http_reqs..................: 655    10.91665/s
+    iteration_duration.........: avg=182.81ms min=176.96ms med=183.4ms  max=190.91ms p(90)=184.31ms p(95)=184.73ms
+    iterations.................: 655    10.91665/s
+    vus........................: 2      min=2 max=2
+    vus_max....................: 2      min=2 max=2
+
